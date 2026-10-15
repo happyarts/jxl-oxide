@@ -1,3 +1,4 @@
+// Modified in happyarts/jxl-oxide (see its commit history).
 use std::io::Write;
 
 use jxl_bitstream::Bitstream;

@@ -1,3 +1,4 @@
+// Modified in happyarts/jxl-oxide (see its commit history).
 use jxl_bitstream::{Bitstream, U};
 use jxl_oxide_common::Bundle;
 

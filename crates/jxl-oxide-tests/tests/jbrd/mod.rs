@@ -1,3 +1,4 @@
+// Modified in happyarts/jxl-oxide (see its commit history).
 #[allow(unused)]
 use jxl_oxide::JxlImage;
 

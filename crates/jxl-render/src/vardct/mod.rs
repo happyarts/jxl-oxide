@@ -1,3 +1,4 @@
+// Modified in happyarts/jxl-oxide (see its commit history).
 #![allow(unsafe_op_in_unsafe_fn)]
 
 use std::collections::HashMap;
