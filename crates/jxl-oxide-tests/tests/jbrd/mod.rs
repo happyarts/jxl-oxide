@@ -70,4 +70,8 @@ test! {
         concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/empty_dht.jxl"),
         "2bec27081b80afe6141754f2c68327389dbfe03958e69f582f2a274ef1e8af59",
     ),
+    com_segment(
+        concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/com_segment.jxl"),
+        "9e5558f5f5733e84ffe28723ad3022f1ad3d0b03df1426f1df9c7c1aa855fb38",
+    ),
 }

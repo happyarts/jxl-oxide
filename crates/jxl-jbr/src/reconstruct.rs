@@ -781,8 +781,9 @@ impl JpegBitstreamReconstructor<'_, '_, '_> {
                 let length = *self.com_length.next().unwrap();
                 let (com_data, next) = self.com_data.split_at(length as usize);
                 self.com_data = next;
+                // `com_data` starts with the marker byte 0xFE.
                 writer
-                    .write_all(&[0xff, 0xfe])
+                    .write_all(&[0xff])
                     .map_err(Error::ReconstructionWrite)?;
                 writer
                     .write_all(com_data)
