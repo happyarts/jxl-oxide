@@ -66,4 +66,8 @@ test! {
         concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/equal_sampling_1x2.jxl"),
         "4364ecfea09cc4cf520b2d05a0971d5cc8406a313792d5b353c569865f7269ba",
     ),
+    empty_dht(
+        concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/empty_dht.jxl"),
+        "2bec27081b80afe6141754f2c68327389dbfe03958e69f582f2a274ef1e8af59",
+    ),
 }
