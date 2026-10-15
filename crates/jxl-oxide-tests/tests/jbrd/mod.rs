@@ -62,4 +62,8 @@ test! {
         concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/progressive_420.jxl"),
         "8718daca9089be7663871d06cdc82d423baf5ba01cd4a32efb37637c9cf62fc9",
     ),
+    equal_sampling_1x2(
+        concat!(env!("CARGO_MANIFEST_DIR"), "/tests/jbrd/equal_sampling_1x2.jxl"),
+        "4364ecfea09cc4cf520b2d05a0971d5cc8406a313792d5b353c569865f7269ba",
+    ),
 }
